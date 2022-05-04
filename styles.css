@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    font-family: 'FreeMono', monospace; 
+  
+}
+  #home {
+    background: url(Screenshot_2022-04-28_1.18.15_PM-removebg-preview.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  #blog {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  #hints {
+    background-color: rgb(9, 36, 9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  #subscribe {
+    background-color: rgb(9, 36, 9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  #instructions {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+.home {
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid rgb(22, 117, 30);
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    margin: 20px;
+    z-index: 3;
+    text-align: center;
+    line-height: 30px;
+    left: 50px;
+    top: 30px;
+}
+
+.instructions {
+  border-radius: 10px;
+  background-color: black;
+  border: 2px solid rgb(22, 117, 30);
+  width: 200px;
+  height: 30px;
+  position: fixed;
+  margin: 20px;
+  z-index: 3;
+  text-align: center;
+  line-height: 30px;
+  left: 300px;
+  top: 30px;
+}
+
+.blog {
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid rgb(22, 117, 30);
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    margin: 20px;
+    z-index: 3;
+    text-align: center;
+    line-height: 30px;
+    left: 550px;
+    top: 30px;
+}
+
+.subscribe {
+  border-radius: 10px;
+  background-color: black;
+  border: 2px solid rgb(22, 117, 30);
+  width: 200px;
+  height: 30px;
+  position: fixed;
+  margin: 20px;
+  z-index: 3;
+  text-align: center;
+  line-height: 30px;
+  left: 800px;
+  top: 30px;
+}
+
+.hints {
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid rgb(22, 117, 30);
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    margin: 20px;
+    z-index: 3;
+    text-align: center;
+    line-height: 30px;
+    left: 1050px;
+    top: 30px;
+}
+
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  z-index: 5;
+  border: 3px solid rgb(22, 117, 30);
+}
+
+
+#hintstext {
+    color: lightgray;
+    border: 0px solid rgb(114, 114, 114);
+    width: 700px;
+    height: 500px;
+    position: relative;
+    margin: 20px;
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    left: 0px;
+    top: 100px;
+}
+
+
+#instructionstext {
+    color: lightgray;
+    border: 0px solid rgb(136, 136, 136);
+    width: 700px;
+    height: 500px;
+    position: relative;
+    margin: 20px;
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    left: -220px;
+    top: 50px;
+}
+
+.map {
+    position: fixed;
+    left: 900px;
+    top: 130px;
+    width: 400px;
+}
+
+.spriteboss {
+  position: fixed;
+  left: 0px;
+  top: 130px;
+  width: 400px;
+}
+
+.back {
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  width: 150px;
+  height: 240px;
+}
+
+.front {
+  position: fixed;
+  left: 1100px;
+  top: 200px;
+  width: 150px;
+  height: 240px;
+}
+
+
+#blogtext {
+    color: lightgray;
+    border: 0px solid rgb(0, 0, 0);
+    width: 700px;
+    height: 500px;
+    position: relative;
+    margin: 20px;
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    left: 0px;
+    top: 50px;
+}
+
+#hometext {
+  color: lightgray;
+  border: 0px solid rgb(0, 0, 0);
+  width: 700px;
+  height: 500px;
+  position: relative;
+  margin: 0px;
+  z-index: 1;
+  text-align: center;
+  line-height: 40px;
+  left: 0px;
+  top: 100px;
+}
+
+
+.head {
+  font-size: 80px;
+  position:fixed;
+  left:300px;
+  top:250px;
+}
+
+.text {
+  position:fixed;
+  left:370px;
+  top:350px;
+}
+
+.burito {
+  position:fixed;
+  left:450px;
+  top:400px;
+}
+
+.burger {
+  position:fixed;
+  left:600px;
+  top:400px;
+}
+
+.hotdog {
+  position:fixed;
+  left:750px;
+  top:400px;
+}
+
+.footer {
+  position:fixed;
+  bottom:30px;
+  left:550px;
+}
+
+
+
+mark {
+  background-color:rgb(177, 177, 177);
+}
+
+
+
+body {
+	background: #CAD3DB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 700px;
+}
+
+.ssubscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	width: 945px;
+	height: 474px;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2)
+}
+
+
+.subscribe__title {
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 18px;
+}
+
+.subscribe__copy {
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 53px;
+	line-height: 1.5;
+}
+
+.form {
+	margin-bottom: 25px;
+}
+
+.form__email {
+	padding: 20px 25px;
+	border-radius: 5px;
+ 	border: 1px solid #444546;
+	width: 431px;
+	font-size: 18px;
+	color: #0F121F;
+}
+
+.form__email:focus {
+	outline: 1px solid #000000;
+}
+
+.form__button {
+	background: #000000;
+	padding: 10px;
+	border: none;
+	width: 244px;
+	height: 65px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.form__button:hover {
+	box-shadow: 0 10px 20px rgba(22, 22, 22, 0.7);
+}
+
+.notice {
+	width: 345px;
+}
